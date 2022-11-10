@@ -74,6 +74,19 @@ const samplePosts = [
       alt: "A pigeon with a spectacular green plumage stares thoughtfully into the distance.",
     },
   },
+   {
+    postId: 4,
+    title: "a hello title",
+    date: "15/10/22",
+    author: "boppy",
+    text: lorem.generateParagraphs(7),
+    highlights: [
+      lorem.generateWords(3),
+      lorem.generateWords(3),
+      lorem.generateWords(3),
+    ],
+    image: { link: "https://as2.ftcdn.net/v2/jpg/01/91/45/11/1000_F_191451152_4xJBD99pIIgPGyBAri2zws22zcMMrX3l.jpg", alt: "fat pigeon" },
+  }
 ];
 
 export default samplePosts;

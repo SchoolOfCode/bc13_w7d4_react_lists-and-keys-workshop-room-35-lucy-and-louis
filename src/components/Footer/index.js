@@ -4,7 +4,7 @@ import './index.css';
 
 function Footer() {
   return (
-    <footer>
+    <footer id="footer">
       <p>Site regularly updated with new and amazing pigeons. Love, Ben.</p>
     </footer>
   );
