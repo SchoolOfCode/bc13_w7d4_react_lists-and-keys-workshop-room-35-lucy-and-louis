@@ -21,7 +21,7 @@ function Post(props) {
         width={400}
       />
       <p>{props.author}</p>
-      <li>{props.highlights}</li>
+      <p>{props.highlights}</p>
       <p>{props.text}</p>
       <div>{props.date}</div>
     </article>

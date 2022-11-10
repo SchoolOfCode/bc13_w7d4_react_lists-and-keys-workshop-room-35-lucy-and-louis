@@ -17,7 +17,7 @@ function Main() {
             data={post.date}
             author={post.author}
             highlights={post.highlights.map((post) => {
-              return <ul text={post.highlights} key={id++}></ul>;
+              return <li text={post.highlights} key={id++}>{post}</li>;
             })}
             text={post.text}
             image={post.image}

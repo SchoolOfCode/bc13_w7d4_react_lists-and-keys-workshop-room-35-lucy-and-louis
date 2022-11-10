@@ -31,5 +31,5 @@ The `image` property of the post object is itself an object - how can you use th
 Add a new post to the `samplePosts` array in src/libs/data. It should seamlessly appear on the page underneath the original posts.
 
 ## Task 7 - Bonus
-
+1
 Edit the components (Footer, Header, Main, Post) and their respective css files to make this pigeon blog the best on the web!
